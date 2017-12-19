@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nourriture facile</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<section id="orga">
+		<section id="Search">
+			
+			<a href="pagedegarde.html">Accueil</a>
+			<a href="pagedupanier.html">Panier</a>
+			<a href="pagedecommande.html" class="position">Commande</a>
+			<a href="pagedesimulation.html">Rechercher</a>
+			<input placeholder="Tapez votre recherche">
+		</section>
+		<section id="table">
+		<table>
+			<tr>
+				<td>Nom :</td>
+				<td><input></td>
+				<td>Numéro :</td>
+				<td><input type="tel"></td>
+			</tr>
+			<tr><td>Prenom :</td><td><input></td><td>Pays :</td>
+				<td>
+				<select>
+				<option></option>
+				<option> France </option>
+				<option> Angleterre </option>
+				<option> Espagne </option>
+				<option> Italie </option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>E-Mail :</td>
+				<td><input></td>
+				<td>Type de carte :</td>
+				<td>
+					<select>
+					<option></option>
+					<option> VISA</option>
+					<option> Master Card </option>
+					<option> Maestro </option>
+					<option> Carte Bleue</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Recevoir les promotions par E-Mail :</td>
+				<td><input type="checkbox"></td>
+				<td>Coordonnées bancaire :</td>
+				<td><input id="carte">-<input id="carte">-<input id="carte">-<input id="carte"></td>
+			</tr>
+			<tr><td>Sélectionner votre fruit :</td>
+					<td>
+					<select>
+					<option></option>
+					<option> Abricot </option>
+					<option> Ananas </option>
+					<option> Banane </option>
+					<option> Cerise </option>
+					<option> Fraise </option>
+					<option> Orange </option>
+					<option> Poire </option>
+					<option> Pomme </option>
+					</select></td>
+					<td> Code de promotion</td>
+					<td><input></td>
+			</tr>
+			<tr>
+				<td> Quantité :</td>
+				<td><input type="number" min="0" max="20"></td>
+				<td> Valider </td>
+				<td><input onclick="alert('Votre commande a été traité')" value="Cliquez ici" type="button"></td>
+			</tr>
+		</table>
+		</section>
+	</section>
+	<footer class="ref">Created by Mael ROBERT</footer>
+</body>
+</html>

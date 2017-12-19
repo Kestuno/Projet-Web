@@ -83,8 +83,8 @@ img
 {
 	display :flex;
 	flex-wrap: wrap;
-	width : 5.2em;
-	height : 5.2em;
+	width : 5.3em;
+	height : 5.3em;
 }
 .ref
 {
@@ -96,7 +96,6 @@ img
 {
 	color : red;
 	font-weight: bolder;
-	text-align: center;
 }
 .position
 {
@@ -114,4 +113,8 @@ a
 	border-color: gray;
 	border-radius: 2em;
 	padding: 0.5em;
+}
+#promo
+{
+	font-size: 100%;
 }
