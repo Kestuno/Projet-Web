@@ -4,7 +4,7 @@ body
 	background-size: cover;
 }
 
-#Blockh section
+#Blockh div
 {
 	display : flex;
 	flex-flow: row wrap;
@@ -17,7 +17,7 @@ body
 	margin : 1em;
 	padding: 1em;
 	font-weight : bold;
-	font-size : 100%;
+	font-size : 110%;
 	background-color: white;
 	max-width: 18%;
 	max-height: 72%;
@@ -40,7 +40,7 @@ body
 	flex-direction: row;
 	justify-content: space-between;
 }
-#Blockb section
+#Blockb div
 {
 	display : flex;
 	flex-flow: row wrap;
@@ -53,7 +53,7 @@ body
 	margin : 1em;
 	padding: 1em;
 	font-weight : bold;
-	font-size : 100%;
+	font-size : 110%;
 	background-color: white;
 	max-width: 18%;
 	max-height: 72%;

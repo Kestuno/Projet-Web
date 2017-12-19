@@ -40,7 +40,7 @@ a
 {
 	color : blue;
 }
-body section
+body div
 {
 	display :flex;
 	flex-flow: row wrap;
